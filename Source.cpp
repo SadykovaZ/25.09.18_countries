@@ -11,14 +11,15 @@ int main()
 	KZ.enter();
 	RU.enter();
 	USA.enter();
-
-#if Kaz == 1
+	const int n=1;
+	//cin >> n;
+#if n==1
 	KZ.print();
 
-#elif Rus ==2
+#elif n == Rus
 	RU.print();
 
-#elif Usa ==3
+#elif Usa ==n
 	USA.print();
 
 #endif
