@@ -1,9 +1,24 @@
 #include"Capital.h"
+#ifndef _COUNTRY_
+#define _COUNTY_
 
-struct country
+
+struct Country
 {
-	string name;
-	int population;
+	string Title;
+	string President;
+	Capital Country_Capital;
+	void enter()
+	{
+		//cout << "Enter title and president: " << endl;
+		in_file >> Title >> President;
+		Country_Capital.enter();
+	}
+	void print()
+	{
+		cout<< Title <<" "<< President<<" ";
+		Country_Capital.print();
+	}
 
-	capital;
 };
+#endif // !_COUNTRY_
