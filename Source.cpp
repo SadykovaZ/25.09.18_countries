@@ -13,10 +13,10 @@ int main()
 	USA.enter();
 	const int n=1;
 	//cin >> n;
-#if n==1
+#if Kaz==2
 	KZ.print();
 
-#elif n == Rus
+#elif Rus==2
 	RU.print();
 
 #elif Usa ==n
